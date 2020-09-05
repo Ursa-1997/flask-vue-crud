@@ -7,6 +7,12 @@ forked from testdrivenio/flask-vue-crud, so you can goto the original link for d
 
 # Ref
 
+Setup:  
+  Flask==1.0.2  
+  Flask-Cors==3.0.7  
+  npm v6.9.0  
+  vue cli 3.7.0  
+  
 Get Stated:  
   https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/  
 
