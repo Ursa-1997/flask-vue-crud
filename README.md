@@ -10,7 +10,7 @@ forked from testdrivenio/flask-vue-crud, so you can goto the original link for d
 Setup:  
   Flask==1.0.2  
   Flask-Cors==3.0.7  
-  npm v6.9.0  
+  npm v6.14.6 
   vue cli 3.7.0  
   
 Get Stated:  
