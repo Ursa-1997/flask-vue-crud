@@ -12,6 +12,8 @@ Setup:
   Flask-Cors==3.0.7  
   npm v6.14.6  
   vue cli 3.7.0  
+  pip install flask_sqlalchemy  
+  pip install mysqlclient  
   
 Get Stated:  
   https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/  
