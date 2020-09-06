@@ -16,7 +16,7 @@ forked from testdrivenio/flask-vue-crud, so you can goto the original link for d
   pip install mysqlclient  
   
 ## Get Stated:  
-  [Great article to start here](https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/）
+  [Great article to start here](https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/)
 
   ### How to create user in MySQL and then grant access?
   ```  
