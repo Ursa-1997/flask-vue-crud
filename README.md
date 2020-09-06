@@ -5,7 +5,7 @@ forked from testdrivenio/flask-vue-crud, so you can goto the original link for d
 
 
 
-# Ref
+
 
 ## Setup:  
   Flask==1.0.2  
@@ -35,3 +35,7 @@ forked from testdrivenio/flask-vue-crud, so you can goto the original link for d
 ## Connect to DB:  
   https://blog.miguelgrinberg.com/post/restful-authentication-with-flask  
   https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database  
+  
+
+# Ref
+  [Rest API 入门](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
