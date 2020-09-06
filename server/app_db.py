@@ -69,11 +69,8 @@ books = [Book(id=uuid.uuid4().hex, title = 'On the Road', author = 'Jack Kerouac
         ]
 
 def remove_book(book_id):
-    for book in BOOKS:
-        if book['id'] == book_id:
-            BOOKS.remove(book)
-            return True
-    return False
+    Book.query.filter_by(id=book_id).delete()
+    db.session.commit()
 
 # sanity check route
 @app.route('/ping', methods=['GET'])
@@ -109,12 +106,14 @@ def single_book(book_id):
     if request.method == 'PUT':
         post_data = request.get_json()
         remove_book(book_id)
-        BOOKS.append({
-            'id': uuid.uuid4().hex,
-            'title': post_data.get('title'),
-            'author': post_data.get('author'),
-            'read': post_data.get('read')
-        })
+        book = Book(
+            id = uuid.uuid4().hex,
+            title = post_data.get('title'),
+            author = post_data.get('author'),
+            read = True if (post_data.get('read') in ['true', 'True']) else False
+        )
+        db.session.add(book)
+        db.session.commit()
         response_object['message'] = 'Book updated!'
     if request.method == 'DELETE':
         remove_book(book_id)
