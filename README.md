@@ -38,4 +38,4 @@ forked from testdrivenio/flask-vue-crud, so you can goto the original link for d
   
 
 # Ref
-  [Rest API 入门](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
+  [基于Flask 实现 Rest API 入门](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
